@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'pretendardBold';
+  src: url(../src/assets/font/PretendardBold.ttf);
+}
+@font-face {
+  font-family: 'pretendardBlack';
+  src: url(../src/assets/font/PretendardBlack.ttf);
+}
+@font-face {
+  font-family: 'pretendardThin';
+  src: url(../src/assets/font/PretendardThin.ttf);
+}
+
