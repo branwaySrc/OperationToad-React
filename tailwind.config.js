@@ -14,7 +14,8 @@ export default {
       colors: {
         'fff': '#FDFDFD',
         'gray100': '#86868B',
-        'gray200': '#1e1e1e'
+        'gray200': '#1e1e1e',
+        'gray300': '#111111'
       },
     },
   },

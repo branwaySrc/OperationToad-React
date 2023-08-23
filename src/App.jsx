@@ -10,6 +10,7 @@ from './sections';
 
 import Nav from './components/Nav'
 
+
 const App = () => (
     <main className="relative bg-black text-white font-pretendardB break-keep">
       <nav>

@@ -1,11 +1,12 @@
 import Partners from '../components/Partners'
+import { StyledNumber,AnchorBtn } from '../components/StyledComponent'
 
 const MainPage = () => {
   return (
     <main>
       <div className='grid'>
         <div className='mt-[100px] h-[530px] font-pretendardBB text-center flex items-center justify-center flex-col'>
-          <h3 className='text-fff text-6xl leading-tight'>우리들의<br></br>작전 프로토콜</h3>
+          <h3 className='bg-gradient-to-br from-gray-400 to-slate-100 bg-clip-text text-transparent text-6xl leading-tight'>우리들의<br></br>작전 프로토콜</h3>
           <h1 className='text-fff mt-5 text-9xl'>선보이다</h1>
           <div className='text-center'>
             <p className='font-pretendardB mt-[80px] text-xl text-gray100'>우리의 작전은 고객이 닿는 모든 곳에 침투하는 것. 
@@ -32,6 +33,9 @@ const MainPage = () => {
             <Partners></Partners>
           </div>
         </div>
+        <div>
+            <AnchorBtn></AnchorBtn>
+          </div>
       </div>
       
     </main>
