@@ -1,0 +1,33 @@
+@keyframes fill-gradient {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.fill-gradient-red {
+  background-image: linear-gradient(to right, #FF5733, #FFC300);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: fill-gradient 2s infinite ease;
+}
+
+.fill-gradient-green {
+  background-image: linear-gradient(to right, #7E00B9, #FF3294);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: fill-gradient 2s infinite ease;
+}
+
+.fill-gradient-blue {
+  background-image: linear-gradient(to right, #00A3FF, #00D1FF);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: fill-gradient 2s infinite ease;
+}
+
