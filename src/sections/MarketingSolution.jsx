@@ -36,7 +36,7 @@ const MarketingSolution = () => {
                 <Cards
                   hover='transition ease-in hover:drop-shadow-[0px_0px_10px_#FF480062]'
                   title={MsText.instagramCardTitle}
-                  logo='../src/assets/img/imweb.svg'
+                  logo='./imweb.svg'
                   description={MsText.instagramCardInfo}
                   price={MsText.instagramCardPrice}
                   link='자세히보기 >'
@@ -48,7 +48,7 @@ const MarketingSolution = () => {
                 <Cards
                   hover='transition ease-in hover:drop-shadow-[0px_0px_10px_#FF480062]'
                   title={MsText.twitterCardTitle}
-                  logo='../src/assets/img/imweb.svg'
+                  logo='./imweb.svg'
                   description={MsText.twitterCardInfo}
                   price={MsText.twitterCardPrice}
                   link='자세히보기 >'

@@ -34,7 +34,7 @@ const WebSolution = () => {
               <Cards
                 hover='transition ease-in hover:drop-shadow-[0px_0px_10px_#00E1FF62]'
                 title={WsText.imTitle}
-                logo='../src/assets/img/imweb.svg'
+                logo='./imweb.svg'
                 description={WsText.imDescription}
                 price={WsText.imPrice}
                 link='자세히보기 >'
@@ -45,9 +45,9 @@ const WebSolution = () => {
               layout='mt-7 text-left flex flex-col items-left'
               title={WsText.imContentTitle}
               images={[
-                '../src/assets/img/stacks/Figma.svg',
-                '../src/assets/img/stacks/illustrator.svg',
-                '../src/assets/img/stacks/Photoshop.svg'
+                './Figma.svg',
+                './Illustrator.svg',
+                './Photoshop.svg'
 
               ]}></StackList>
             </div>
@@ -55,7 +55,7 @@ const WebSolution = () => {
               <Cards
                 hover='transition ease-in hover:drop-shadow-[0px_0px_10px_#00E1FF62]'
                 title={WsText.gnuTitle}
-                logo='../src/assets/img/gnu.svg'
+                logo='./gnu.svg'
                 description={WsText.gnuDescription}
                 price= {WsText.gnuPrice}
                 link='자세히보기 >'
@@ -66,11 +66,11 @@ const WebSolution = () => {
               layout='mt-7 text-left flex flex-col items-left'
               title={WsText.gnuContentTitle}
               images={[
-                '../src/assets/img/stacks/Youngcart.png',
-                '../src/assets/img/stacks/SQL.png',
-                '../src/assets/img/stacks/Cafe24.png',
-                '../src/assets/img/stacks/Figma.svg',
-                '../src/assets/img/stacks/illustrator.svg',
+                './Youngcart.svg',
+                './SQL.svg',
+                './Cafe24.svg',
+                './Figma.svg',
+                './Illustrator.svg',
 
               ]}></StackList>
             </div>
@@ -78,7 +78,7 @@ const WebSolution = () => {
               <Cards
                 hover='transition ease-in hover:drop-shadow-[0px_0px_10px_#00E1FF62]'
                 title={WsText.fullstackTitle}
-                logo='../src/assets/img/react.svg'
+                logo='./react.svg'
                 description={WsText.fullstackDescription}
                 price={WsText.fullstackPrice}
                 link='자세히보기 >'
@@ -89,13 +89,13 @@ const WebSolution = () => {
               layout='mt-7 text-left flex flex-col items-left'
               title={WsText.fullstackContentTitle}
               images={[
-                '../src/assets/img/stacks/Figma.svg',
-                '../src/assets/img/react.svg',
-                '../src/assets/img/stacks/Nextjs.png',
-                '../src/assets/img/stacks/Nodejs.png',
-                '../src/assets/img/stacks/Mongodb.png',
-                '../src/assets/img/stacks/SQL.png',
-                '../src/assets/img/stacks/firebase.png',
+                './Figma.svg',
+                './react.svg',
+                './Nextjs.svg',
+                './Nodejs.svg',
+                './Mongodb.svg',
+                './SQL.svg',
+                './Firebase.svg',
 
               ]}></StackList>
             </div>

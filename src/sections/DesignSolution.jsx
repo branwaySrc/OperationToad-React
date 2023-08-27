@@ -31,7 +31,7 @@ const DesignSolution = () => {
               <Cards
                 hover='transition ease-in hover:drop-shadow-[0px_0px_10px_#B700FF62]'
                 title={DsText.catalogCardTitle}
-                logo='../src/assets/img/imweb.svg'
+                logo='./imweb.svg'
                 description={DsText.catalogCardInfo}
                 price={DsText.catalogPrice}
                 link='자세히보기 >'
@@ -42,9 +42,9 @@ const DesignSolution = () => {
               layout='mt-7 text-right flex flex-col items-end'
               title={DsText.catalogStackTitle}
               images={[
-                '../src/assets/img/stacks/Figma.svg',
-                '../src/assets/img/stacks/illustrator.svg',
-                '../src/assets/img/stacks/Photoshop.svg'
+                './Figma.svg',
+                './Illustrator.svg',
+                './Photoshop.svg'
 
               ]}></StackList>
             </div>
@@ -52,7 +52,7 @@ const DesignSolution = () => {
               <Cards
                 hover='transition ease-in hover:drop-shadow-[0px_0px_10px_#B700FF62]'
                 title={DsText.uiuxCardTitle}
-                logo='../src/assets/img/gnu.svg'
+                logo='./gnu.svg'
                 description={DsText.uiuxCardInfo}
                 price={DsText.uiuxCardPrice}
                 link='자세히보기 >'
@@ -63,11 +63,11 @@ const DesignSolution = () => {
               layout='mt-7 text-right flex flex-col items-end'
               title={DsText.uiuxStackTitle}
               images={[
-                '../src/assets/img/stacks/Youngcart.png',
-                '../src/assets/img/stacks/SQL.png',
-                '../src/assets/img/stacks/Cafe24.png',
-                '../src/assets/img/stacks/Figma.svg',
-                '../src/assets/img/stacks/illustrator.svg',
+                './Youngcart.svg',
+                './Figma.svg',
+                './Cafe24.svg',
+                './Figma.svg',
+                './Illustrator.svg',
 
               ]}></StackList>
             </div>
