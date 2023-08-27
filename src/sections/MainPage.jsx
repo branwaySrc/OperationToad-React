@@ -1,11 +1,11 @@
 import Partners from '../components/Partners';
 import { StyledNumber,AnchorBtn } from '../components/StyledComponent';
-import { AlterText } from '../components/StyledAnimation';
+import { AlterText } from '../components/StyledComponent';
 
 const MainPage = () => {
   return (
     <main>
-      <div className='grid'>
+      <div className='grid items-center justify-center'>
         <div className='mt-[150px] h-[530px] font-pretendardBB text-center flex items-center justify-center flex-col'>
           <h3 className='bg-gradient-to-br from-gray-400 to-slate-100 bg-clip-text text-transparent text-6xl leading-tight'>우리들의<br></br>작전 프로토콜</h3>
           <div>
@@ -18,7 +18,7 @@ const MainPage = () => {
             </p>
           </div>
         </div>
-        <div className='mt-10 h-[450px] flex flex-col gap-24 items-center'>
+        <div className='mt-10 h-[300px]'>
           <div className='h-16 flex justify-center gap-4 items-center'>
           <button className='px-[80px] h-14 border rounded-lg bg-fff text-gray200 font-pretendardBB'>
             매체소개서 보기 
@@ -36,7 +36,7 @@ const MainPage = () => {
             <Partners></Partners>
           </div>
         </div>
-        <section className='mt-40'>
+        <section className='mt-40 flex items-center justify-center'>
             <AnchorBtn></AnchorBtn>
         </section>
       </div>

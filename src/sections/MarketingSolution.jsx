@@ -1,5 +1,7 @@
-import { StyledNumber,AnchorBtn } from '../components/StyledComponent'
-import { ContentHeader,EmphasizeWord } from '../components/ContentHeader'
+import { StyledNumber } from '../components/StyledComponent';
+import { ContentHeader } from '../components/ContentHeader';
+import { Cards,StackList } from '../components/Cards';
+import { MsText } from '../components/SectionText';
 
 const MarketingSolution = () => {
   return (
@@ -13,19 +15,48 @@ const MarketingSolution = () => {
       </div>
       <div>
         <ContentHeader
-          category='마케팅 솔루션'
+          category={MsText.headerCategory}
           fontColor='bg-gradient-to-tr from-amber-500 to-pink-500 bg-clip-text text-transparent'
-          titleRow1='인스타그램 브랜드 스토리 마케팅 작전'
-          contentRow1='잠재고객은 광고가 아니라 무의식으로 침투해야합니다.'
-          contentRow2= {
-            <>
-              <EmphasizeWord>이해하기 쉬운 콘텐츠로</EmphasizeWord>{''}
-              통해 정보를 전달하고 <EmphasizeWord>의지할 수 있는 브랜드로</EmphasizeWord>{''}
-              신뢰와 소통을 유지합니다.
-            </>
-            }
+          titleRow={MsText.headerTitle}
+          contentRow={MsText.headerQuote}
           >
         </ContentHeader>
+      </div>
+      <div className='relative'>
+        <div className='flex justify-between max-w-6xl mx-auto my-0'>
+          <section className='flex flex-col gap-20 pr-10'>
+            <div className='w-[480px] mt-40'>
+              <div className='mb-20'>
+                <h1>{MsText.contentTitle}</h1>
+                <h3>{MsText.contentSubtitle}</h3>
+                <p>{MsText.contentInfo}</p>
+              </div>
+                <Cards
+                  hover='transition ease-in hover:drop-shadow-[0px_0px_10px_#FF480062]'
+                  title={MsText.instagramCardTitle}
+                  logo='../src/assets/img/imweb.svg'
+                  description={MsText.instagramCardInfo}
+                  price={MsText.instagramCardPrice}
+                  link='자세히보기 >'
+                  url='javascript:void(0)'
+                  >
+                </Cards>
+            </div>
+              <div className='mb-20'>
+                <Cards
+                  hover='transition ease-in hover:drop-shadow-[0px_0px_10px_#FF480062]'
+                  title={MsText.twitterCardTitle}
+                  logo='../src/assets/img/imweb.svg'
+                  description={MsText.twitterCardInfo}
+                  price={MsText.twitterCardPrice}
+                  link='자세히보기 >'
+                  url='javascript:void(0)'
+                  >
+                </Cards>
+              </div>
+          </section>
+          <section></section>
+        </div>
       </div>
     </div>
   )

@@ -1,10 +1,11 @@
 import { ContentHeader, EmphasizeWord } from '../components/ContentHeader'
 import { StyledNumber,AnchorBtn } from '../components/StyledComponent'
-import {Cards,StackList} from '../components/Cards'
+import { Cards,StackList } from '../components/Cards'
+import { DsText } from '../components/SectionText'
 
 const DesignSolution = () => {
   return (
-    <div className='mt-40'>
+    <div className='mt-60'>
       <div>
         <StyledNumber
           bg1='bg-gradient-to-t from-cyan-600 from-10% via-cyan-800 via-25% to-black to-80%'
@@ -13,15 +14,10 @@ const DesignSolution = () => {
       </div>
       <div>
         <ContentHeader
-          category='디자인 솔루션'
+          category={DsText.headerCategory}
           fontColor='bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent'
-          titleRow1='아이디어를 표현하는 디자인 작전 프로토콜'
-          contentRow1={
-          <>
-            서비스 스토리보드, UIUX디자인, 카달로그, 사업계획서, 지원사업 발표자료 등 <EmphasizeWord>두꺼비만의 디자인 작전</EmphasizeWord>으로 표현하다.
-            <EmphasizeWord>아이디어는 디자인으로 통해 전달하고 세부내용은 카피라이팅</EmphasizeWord>으로 보는 사람들의 뇌리에 침투합니다.
-          </>
-          }
+          titleRow={DsText.headerTitle}
+          contentRow={DsText.headerQuote}
         />
       </div>
       <div className='relative'>
@@ -30,20 +26,18 @@ const DesignSolution = () => {
           <section className='flex flex-col gap-20 pr-10'>
           <div className='w-[480px] mt-40'>
               <Cards
-                hover='transition ease-in hover:drop-shadow-[0px_0px_10px_#00E1FF62]'
-                title='아임웹 솔루션 활용'
+                hover='transition ease-in hover:drop-shadow-[0px_0px_10px_#B700FF62]'
+                title={DsText.catalogCardTitle}
                 logo='../src/assets/img/imweb.svg'
-                description='아임웹 솔루션을 활용하여 매달 저렴한 고정비용으로 이커머스, 브랜드
-                사이트 등, 다양한 장르의 서비스를 운영하실 수 있습니다. 하지만,
-                원하시는 디자인 커스터마이징의 제한이 있을 수 있습니다.'
-                price='최소 50만원부터~'
+                description={DsText.catalogCardInfo}
+                price={DsText.catalogPrice}
                 link='자세히보기 >'
                 url='javascript:void(0)'
                 >
               </Cards>
               <StackList
               layout='mt-7 text-right flex flex-col items-end'
-              title='아임웹 솔루션 제작에 사용되는 툴과 서비스'
+              title={DsText.catalogStackTitle}
               images={[
                 '../src/assets/img/stacks/Figma.svg',
                 '../src/assets/img/stacks/illustrator.svg',
@@ -53,20 +47,18 @@ const DesignSolution = () => {
             </div>
             <div className='w-[480px]'>
               <Cards
-                hover='transition ease-in hover:drop-shadow-[0px_0px_10px_#00E1FF62]'
-                title='그누보드 솔루션 활용'
+                hover='transition ease-in hover:drop-shadow-[0px_0px_10px_#B700FF62]'
+                title={DsText.uiuxCardTitle}
                 logo='../src/assets/img/gnu.svg'
-                description='그누보드 솔루션을 활용하여 보다 넓은 커스터마이징 기능을 구현할 수
-                있습니다. 이커머스, 브랜드 사이트 등, 다양한 서비스 운영이 가능합니다.
-                하지만, 직접 개발비 및 유지보수 비용이 발생할 수 있습니다.'
-                price='최소 100만원부터~'
+                description={DsText.uiuxCardInfo}
+                price={DsText.uiuxCardPrice}
                 link='자세히보기 >'
                 url='javascript:void(0)'
                 >
               </Cards>
               <StackList
               layout='mt-7 text-right flex flex-col items-end'
-              title='그누보드 솔루션 제작에 사용되는 툴과 서비스'
+              title={DsText.uiuxStackTitle}
               images={[
                 '../src/assets/img/stacks/Youngcart.png',
                 '../src/assets/img/stacks/SQL.png',
@@ -76,33 +68,6 @@ const DesignSolution = () => {
 
               ]}></StackList>
             </div>
-            <div className='w-[480px]'>
-              <Cards
-                hover='transition ease-in hover:drop-shadow-[0px_0px_10px_#00E1FF62]'
-                title='풀스택 자체개발'
-                logo='../src/assets/img/react.svg'
-                description='직접 개발을 통해 원하는 모든 기능들을 구현할 수 있습니다. 기획,
-                디자인, 서비스 구현까지 풀패키지 서비스를 운영합니다. 하지만,
-                개발언어에 따라 기간이 상이하며, 장기간 소요됩니다.'
-                price='최소 300만원부터~'
-                link='자세히보기 >'
-                url='javascript:void(0)'
-                >
-              </Cards>
-              <StackList
-              layout='mt-7 text-right flex flex-col items-end'
-              title='자체 개발에 주로 사용되는 툴 및 프레임워크'
-              images={[
-                '../src/assets/img/stacks/Figma.svg',
-                '../src/assets/img/react.svg',
-                '../src/assets/img/stacks/Nextjs.png',
-                '../src/assets/img/stacks/Nodejs.png',
-                '../src/assets/img/stacks/Mongodb.png',
-                '../src/assets/img/stacks/SQL.png',
-                '../src/assets/img/stacks/firebase.png',
-
-              ]}></StackList>
-              </div>
           </section>
         </div>
       </div>
