@@ -1,8 +1,9 @@
 import {ContentHeader,EmphasizeWord} from '../components/ContentHeader'
 import {StyledNumber,AnchorBtn} from '../components/StyledComponent'
 import {Cards,StackList} from '../components/Cards'
-import { WsText } from '../components/SectionText'
+import { WsText } from '../components/textData'
 import ComputersCanvas from '../components/canvas/Computers'
+import ElectronComponent from '../components/canvas/Electron'
 
 const WebSolution = () => {
   return (
@@ -23,8 +24,8 @@ const WebSolution = () => {
           >
         </ContentHeader>
       </div>
-      <div className='h-[900px] w-[1380px] mt-[-150px]'>
-          <ComputersCanvas></ComputersCanvas>
+      <div className='h-[900px] w-[1380px] mt-[-150px] z-[-1]'>
+          <ElectronComponent></ElectronComponent>
         </div>
       <div className='relative flex items-center justify-center'>
         <div className='xm:mt-[-00px] sm:mt-[-300px] lg:mt-[-100px] '>
@@ -37,7 +38,7 @@ const WebSolution = () => {
                 description={WsText.imDescription}
                 price={WsText.imPrice}
                 link='자세히보기 >'
-                url='javascript:void(0)'
+                url=''
                 >
               </Cards>
               <StackList
@@ -58,7 +59,7 @@ const WebSolution = () => {
                 description={WsText.gnuDescription}
                 price= {WsText.gnuPrice}
                 link='자세히보기 >'
-                url='javascript:void(0)'
+                url=''
                 >
               </Cards>
               <StackList
@@ -81,7 +82,7 @@ const WebSolution = () => {
                 description={WsText.fullstackDescription}
                 price={WsText.fullstackPrice}
                 link='자세히보기 >'
-                url='javascript:void(0)'
+                url=''
                 >
               </Cards>
               <StackList

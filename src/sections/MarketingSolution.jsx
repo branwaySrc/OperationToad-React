@@ -1,7 +1,7 @@
 import { StyledNumber } from '../components/StyledComponent';
 import { ContentHeader } from '../components/ContentHeader';
 import { Cards,StackList } from '../components/Cards';
-import { MsText } from '../components/SectionText';
+import { MsText } from '../components/textData';
 
 const MarketingSolution = () => {
   return (
@@ -22,6 +22,8 @@ const MarketingSolution = () => {
           >
         </ContentHeader>
       </div>
+      <div>
+      </div>
       <div className='relative'>
         <div className='flex justify-between max-w-6xl mx-auto my-0'>
           <section className='flex flex-col gap-20 pr-10'>
@@ -38,7 +40,7 @@ const MarketingSolution = () => {
                   description={MsText.instagramCardInfo}
                   price={MsText.instagramCardPrice}
                   link='자세히보기 >'
-                  url='javascript:void(0)'
+                  url=''
                   >
                 </Cards>
             </div>
@@ -50,12 +52,13 @@ const MarketingSolution = () => {
                   description={MsText.twitterCardInfo}
                   price={MsText.twitterCardPrice}
                   link='자세히보기 >'
-                  url='javascript:void(0)'
+                  url=''
                   >
                 </Cards>
               </div>
           </section>
-          <section></section>
+          <section>
+          </section>
         </div>
       </div>
     </div>

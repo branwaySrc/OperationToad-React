@@ -1,7 +1,8 @@
 import { ContentHeader, EmphasizeWord } from '../components/ContentHeader'
 import { StyledNumber,AnchorBtn } from '../components/StyledComponent'
 import { Cards,StackList } from '../components/Cards'
-import { DsText } from '../components/SectionText'
+import { DsText } from '../components/textData'
+import MyDesign from '../components/canvas/DesignPlayer'
 
 const DesignSolution = () => {
   return (
@@ -20,11 +21,13 @@ const DesignSolution = () => {
           contentRow={DsText.headerQuote}
         />
       </div>
+      <div className='h-[250px] mt-20 mb-10'>
+        <MyDesign></MyDesign>
+      </div>
       <div className='relative'>
-        <div className='flex justify-between max-w-6xl mx-auto my-0'>
-          <section></section>
-          <section className='flex flex-col gap-20 pr-10'>
-          <div className='w-[480px] mt-40'>
+        <div className='flex justify-center max-w-6xl mx-auto my-0'>
+          <section className='flex flex-wrap gap-10 items-center mt-10 justify-center'>
+          <div className='w-[480px]'>
               <Cards
                 hover='transition ease-in hover:drop-shadow-[0px_0px_10px_#B700FF62]'
                 title={DsText.catalogCardTitle}
@@ -32,7 +35,7 @@ const DesignSolution = () => {
                 description={DsText.catalogCardInfo}
                 price={DsText.catalogPrice}
                 link='자세히보기 >'
-                url='javascript:void(0)'
+                url=''
                 >
               </Cards>
               <StackList
@@ -53,7 +56,7 @@ const DesignSolution = () => {
                 description={DsText.uiuxCardInfo}
                 price={DsText.uiuxCardPrice}
                 link='자세히보기 >'
-                url='javascript:void(0)'
+                url=''
                 >
               </Cards>
               <StackList
