@@ -1,5 +1,6 @@
 import { BrowserRouter } from 'react-router-dom';
 import { Analytics } from '@vercel/analytics/react'
+import React, { useEffect, useState } from "react";
 
 import {
   MainPage,
@@ -15,6 +16,18 @@ import Nav from './components/Nav'
 
 
 const App = () => {
+
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    // Simulate loading delay
+    setTimeout(() => {
+      setIsLoaded(true); // Set isLoaded to true when content is ready
+    }, 5000); // Adjust the time as needed
+
+    // Fetch your data and perform other async operations here
+  }, []);
+
   return (
     <BrowserRouter>
       <main className="bg-black relative z-0 text-white font-pretendardB break-keep">

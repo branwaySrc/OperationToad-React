@@ -15,6 +15,7 @@ const Earth = () => {
 const EarthCanvas = () => {
   return (
     <Canvas
+      Canvas concurrent="true"
       shadows
       frameloop='demand'
       dpr={[1, 2]}

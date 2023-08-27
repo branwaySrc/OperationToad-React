@@ -47,7 +47,9 @@ function ElectronComponent() {
   }
 
   return (
-    <Canvas camera={{ position: [0, 0, 10] }}>
+    <Canvas 
+      Canvas concurrent="true"
+      camera={{ position: [0, 0, 10] }}>
       <color attach="background" args={['#000']} />
       <Float speed={4} rotationIntensity={1} floatIntensity={2}>
         <Atom />

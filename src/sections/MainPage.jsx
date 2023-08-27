@@ -1,5 +1,5 @@
 import Partners from '../components/Partners';
-import { StyledNumber,AnchorBtn } from '../components/StyledComponent';
+import { AnchorBtn } from '../components/StyledComponent';
 import { AlterText } from '../components/StyledComponent';
 
 const MainPage = () => {
