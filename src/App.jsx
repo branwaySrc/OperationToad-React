@@ -23,7 +23,7 @@ const App = () => {
     // Simulate loading delay
     setTimeout(() => {
       setIsLoaded(true); // Set isLoaded to true when content is ready
-    }, 5000); // Adjust the time as needed
+    }, 3000); // Adjust the time as needed
 
     // Fetch your data and perform other async operations here
   }, []);
