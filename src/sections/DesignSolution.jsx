@@ -1,7 +1,7 @@
 import { ContentHeader, EmphasizeWord } from '../components/ContentHeader'
 import { StyledNumber,AnchorBtn } from '../components/StyledComponent'
 import { Cards,StackList } from '../components/Cards'
-import { DsText } from '../components/textData'
+import { DsText } from '../components/SectionData'
 import MyDesign from '../components/canvas/DesignPlayer'
 
 const DesignSolution = () => {

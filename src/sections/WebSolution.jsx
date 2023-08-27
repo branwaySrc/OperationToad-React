@@ -1,7 +1,7 @@
 import {ContentHeader,EmphasizeWord} from '../components/ContentHeader'
 import {StyledNumber,AnchorBtn} from '../components/StyledComponent'
 import {Cards,StackList} from '../components/Cards'
-import { WsText } from '../components/textData'
+import { WsText } from '../components/SectionData'
 import ElectronComponent from '../components/canvas/Electron'
 
 const WebSolution = () => {

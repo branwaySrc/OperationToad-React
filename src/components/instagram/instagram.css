@@ -1,0 +1,42 @@
+section.instagram-body {
+  background: #121212; 
+  margin: 0; 
+  padding: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -ms-overflow-style: 10px; /* 인터넷 익스플로러 */
+  scrollbar-width: 10px; 
+}
+section.instagram-body::-webkit-scrollbar {
+  width: 10px; /* 크롬, 사파리, 오페라, 엣지 */
+}
+
+section.instagram-body::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: #000; /* 스크롤바의 색상 */
+  border-radius: 10px;
+  border: 1px solid #1e1e1e;
+}
+
+section.instagram-body::-webkit-scrollbar-track {
+  background: rgb(41, 41, 41);  /*스크롤바 뒷 배경 색상*/
+}
+
+div.story-inner {
+  overflow: scroll;
+  overflow-y: hidden;
+  scrollbar-width: 1px;
+  -ms-overflow-style: 1px; /* 인터넷 익스플로러 */
+  scrollbar-width: 1px; 
+}
+
+div.story-inner::-webkit-scrollbar {
+  height: 0px;
+}
+
+div.story-inner::-webkit-scrollbar-thumb{
+  height: 0px;
+}
+div.story-inner::-webkit-scrollbar-track{
+  background: #84848447;
+}

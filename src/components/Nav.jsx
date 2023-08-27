@@ -5,7 +5,7 @@ const Nav = () => {
         backdrop-blur top-0 left-0 right-0 flex flex-col items-center justify-center'>
         <div className='w-screen max-w-screen-xl'>
         <div className="flex justify-between px-4 py-1 items-center">
-          <div className="px-16 py-7 bg-center  bg-contain bg-no-repeat  bg-[url('./toad_logo.svg')]"></div>
+          <div className="px-16 py-7 bg-center  bg-contain bg-no-repeat  bg-[url('./public/toad_logo.svg')]"></div>
           <div className="flex text-gray100 gap-8">
             <a className="transition ease-in duration-200 hover:text-fff px-4 py-2" href="javascript:void(0)">개발솔루션</a>
             <a className="transition ease-in duration-200 hover:text-fff px-4 py-2" href="javascript:void(0)">디자인솔루션</a>

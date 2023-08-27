@@ -1,7 +1,8 @@
 import { StyledNumber } from '../components/StyledComponent';
 import { ContentHeader } from '../components/ContentHeader';
 import { Cards,StackList } from '../components/Cards';
-import { MsText } from '../components/textData';
+import { MsText } from '../components/SectionData';
+import Instagram from '../components/instagram/Instagram';
 
 const MarketingSolution = () => {
   return (
@@ -25,14 +26,15 @@ const MarketingSolution = () => {
       <div>
       </div>
       <div className='relative'>
-        <div className='flex justify-between max-w-6xl mx-auto my-0'>
-          <section className='flex flex-col gap-20 pr-10'>
-            <div className='w-[480px] mt-40'>
+        <div className='flex justify-center'>
+          <section className='flex flex-wrap-reverse justify-center'>
+            <div className='flex flex-col gap-5 w-[480px] mt-40'>
               <div className='mb-20'>
                 <h1>{MsText.contentTitle}</h1>
                 <h3>{MsText.contentSubtitle}</h3>
                 <p>{MsText.contentInfo}</p>
               </div>
+              <div>
                 <Cards
                   hover='transition ease-in hover:drop-shadow-[0px_0px_10px_#FF480062]'
                   title={MsText.instagramCardTitle}
@@ -43,7 +45,7 @@ const MarketingSolution = () => {
                   url=''
                   >
                 </Cards>
-            </div>
+              </div>
               <div className='mb-20'>
                 <Cards
                   hover='transition ease-in hover:drop-shadow-[0px_0px_10px_#FF480062]'
@@ -56,8 +58,10 @@ const MarketingSolution = () => {
                   >
                 </Cards>
               </div>
-          </section>
-          <section>
+            </div> 
+              <div>
+                <Instagram></Instagram>
+              </div>
           </section>
         </div>
       </div>
