@@ -20,19 +20,19 @@ const Instagram = () => {
                   <div 
                     className='h-10 w-40 bg-no-repeat bg-center bg-contain'
                     style={{
-                      backgroundImage: 'url("./src/components/instagram/img/instagram.svg")'
+                      backgroundImage: 'url("./public/content/instagram.svg")'
                   }}/>
                 </div>
                 <div className='flex gap-5 pr-4'>
                 <div 
                   className='h-8 w-8 bg-no-repeat bg-center bg-contain'
                   style={{
-                    backgroundImage: 'url("./src/components/instagram/img/heart.svg")'
+                    backgroundImage: 'url("./public/content/heart.svg")'
                 }}/>
                 <div 
                   className='h-8 w-8 bg-no-repeat bg-center bg-contain'
                   style={{
-                    backgroundImage: 'url("./src/components/instagram/img/send.svg")'
+                    backgroundImage: 'url("./public/content/send.svg")'
                 }}/>
                 </div>
               </div>
@@ -48,27 +48,27 @@ const Instagram = () => {
             <div 
               className='h-9 w-9 bg-no-repeat bg-center bg-contain'
               style={{
-                backgroundImage: 'url("./src/components/instagram/img/home.svg")'
+                backgroundImage: 'url("./public/content/home.svg")'
             }}/>
             <div 
               className='h-9 w-9 bg-no-repeat bg-center bg-contain'
               style={{
-                backgroundImage: 'url("./src/components/instagram/img/search.svg")'
+                backgroundImage: 'url("./public/content/search.svg")'
             }}/>
             <div 
               className='h-9 w-9 bg-no-repeat bg-center bg-contain'
               style={{
-                backgroundImage: 'url("./src/components/instagram/img/addsquare.svg")'
+                backgroundImage: 'url("./public/content/addsquare.svg")'
             }}/>
             <div 
               className='h-9 w-9 bg-no-repeat bg-center bg-contain'
               style={{
-                backgroundImage: 'url("./src/components/instagram/img/media.svg")'
+                backgroundImage: 'url("./public/content/media.svg")'
             }}/>
             <div 
               className='h-9 w-9 bg-no-repeat bg-center bg-contain rounded-full'
               style={{
-                backgroundImage: 'url("./src/components/instagram/img/My.svg")'
+                backgroundImage: 'url("./public/content/My.svg")'
             }}/>
             
             </div>

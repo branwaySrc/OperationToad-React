@@ -42,13 +42,13 @@ const InstagramPost = ({ name , text , likes , profile , post }) => {
         <div 
           className='h-6 w-6 bg-no-repeat bg-center bg-contain'
           style={{
-          backgroundImage: 'url("./src/components/instagram/img/dot.svg")'
+          backgroundImage: 'url("./public/content/dot.svg")'
         }}/>
       </div>
       <div>
         <div className='bg-gray200'>
           <div
-            className='bg-no-repeat bg-center bg-contain'
+            className='bg-no-repeat bg-center bg-cover'
             style={{
               backgroundImage: `url(${post})`,
               width: '420px',
@@ -62,24 +62,24 @@ const InstagramPost = ({ name , text , likes , profile , post }) => {
           <div 
             className='h-7 w-7 bg-no-repeat bg-center bg-contain'
             style={{
-              backgroundImage: 'url("./src/components/instagram/img/heart.svg")'
+              backgroundImage: 'url("./public/content/heart.svg")'
             }}/>
           <div 
             className='h-7 w-7 bg-no-repeat bg-center bg-contain'
             style={{
-              backgroundImage: 'url("./src/components/instagram/img/message.svg")'
+              backgroundImage: 'url("./public/content/message.svg")'
             }}/>
           <div 
             className='h-7 w-7 bg-no-repeat bg-center bg-contain'
             style={{
-              backgroundImage: 'url("./src/components/instagram/img/send.svg")'
+              backgroundImage: 'url("./public/content/send.svg")'
             }}/>
         </div>
         <div className='pr-4'>
           <div 
               className='h-7 w-7 bg-no-repeat bg-center bg-contain'
               style={{
-                backgroundImage: 'url("./src/components/instagram/img/favorite.svg")'
+                backgroundImage: 'url("./public/content/favorite.svg")'
             }}/>
         </div>
       </div>
