@@ -20,19 +20,19 @@ const Instagram = () => {
                   <div 
                     className='h-10 w-40 bg-no-repeat bg-center bg-contain'
                     style={{
-                      backgroundImage: 'url("./public/content/instagram.svg")'
+                      backgroundImage: 'url("./content/instagram.svg")'
                   }}/>
                 </div>
                 <div className='flex gap-5 pr-4'>
                 <div 
                   className='h-8 w-8 bg-no-repeat bg-center bg-contain'
                   style={{
-                    backgroundImage: 'url("./public/content/heart.svg")'
+                    backgroundImage: 'url("./content/heart.svg")'
                 }}/>
                 <div 
                   className='h-8 w-8 bg-no-repeat bg-center bg-contain'
                   style={{
-                    backgroundImage: 'url("./public/content/send.svg")'
+                    backgroundImage: 'url("./content/send.svg")'
                 }}/>
                 </div>
               </div>
@@ -48,27 +48,27 @@ const Instagram = () => {
             <div 
               className='h-9 w-9 bg-no-repeat bg-center bg-contain'
               style={{
-                backgroundImage: 'url("./public/content/home.svg")'
+                backgroundImage: 'url("./content/home.svg")'
             }}/>
             <div 
               className='h-9 w-9 bg-no-repeat bg-center bg-contain'
               style={{
-                backgroundImage: 'url("./public/content/search.svg")'
+                backgroundImage: 'url("./content/search.svg")'
             }}/>
             <div 
               className='h-9 w-9 bg-no-repeat bg-center bg-contain'
               style={{
-                backgroundImage: 'url("./public/content/addsquare.svg")'
+                backgroundImage: 'url("./content/addsquare.svg")'
             }}/>
             <div 
               className='h-9 w-9 bg-no-repeat bg-center bg-contain'
               style={{
-                backgroundImage: 'url("./public/content/media.svg")'
+                backgroundImage: 'url("./content/media.svg")'
             }}/>
             <div 
               className='h-9 w-9 bg-no-repeat bg-center bg-contain rounded-full'
               style={{
-                backgroundImage: 'url("./public/content/My.svg")'
+                backgroundImage: 'url("./content/My.svg")'
             }}/>
             
             </div>

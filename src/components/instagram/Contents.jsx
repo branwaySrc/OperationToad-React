@@ -42,7 +42,7 @@ const InstagramPost = ({ name , text , likes , profile , post }) => {
         <div 
           className='h-6 w-6 bg-no-repeat bg-center bg-contain'
           style={{
-          backgroundImage: 'url("./public/content/dot.svg")'
+          backgroundImage: 'url("./content/dot.svg")'
         }}/>
       </div>
       <div>
@@ -62,24 +62,24 @@ const InstagramPost = ({ name , text , likes , profile , post }) => {
           <div 
             className='h-7 w-7 bg-no-repeat bg-center bg-contain'
             style={{
-              backgroundImage: 'url("./public/content/heart.svg")'
+              backgroundImage: 'url("./content/heart.svg")'
             }}/>
           <div 
             className='h-7 w-7 bg-no-repeat bg-center bg-contain'
             style={{
-              backgroundImage: 'url("./public/content/message.svg")'
+              backgroundImage: 'url("./content/message.svg")'
             }}/>
           <div 
             className='h-7 w-7 bg-no-repeat bg-center bg-contain'
             style={{
-              backgroundImage: 'url("./public/content/send.svg")'
+              backgroundImage: 'url("./content/send.svg")'
             }}/>
         </div>
         <div className='pr-4'>
           <div 
               className='h-7 w-7 bg-no-repeat bg-center bg-contain'
               style={{
-                backgroundImage: 'url("./public/content/favorite.svg")'
+                backgroundImage: 'url("./content/favorite.svg")'
             }}/>
         </div>
       </div>
